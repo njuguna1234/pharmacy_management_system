@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS medicines (
     CONSTRAINT chk_low_stock CHECK (low_stock_level >= 0)
 );
 
--- Demo login: admin / admin123
+-- -- Demo login: Myadmin / MyNewPassword123!
 INSERT INTO users (username, password_hash, role)
 SELECT 'admin',
        '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9',
